@@ -1,0 +1,98 @@
+body{
+    background-color:azure;
+}
+h1{
+    text-align:center;
+}
+.box{
+    height:35rem;
+    width:35rem;
+    background-color:wheat;
+    border:2px solid brown;
+    display:flex;
+    flex-direction:column;
+    margin:10px auto;
+    justify-content:center;
+    align-items: center;
+
+}
+.l1,.l2,.l3{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+align-items: center;
+height:98%;
+width:98%;
+}
+
+.l3 div{
+    height:11rem;
+    width:11rem;
+    border:2px solid brown;
+    background-color:antiquewhite;
+    font-size:7rem;
+    font-weight: 700;
+    color:brown;
+    text-align:center;
+}
+
+.l2 div{
+    height:11rem;
+    width:11rem;
+    border:2px solid brown;
+    background-color:antiquewhite;
+    font-size:7rem;
+    font-weight: 700;
+    color:brown;
+    text-align:center;
+
+}
+
+.l1 div{
+    height:11rem;
+    width:11rem;
+    border:2px solid brown;
+    background-color:antiquewhite;
+    font-size:7rem;
+    font-weight: 700;
+    color:brown;
+    text-align:center;
+
+}
+
+#menu{
+    height:10rem;
+    width:15rem;
+    margin:10px auto;
+    background-color:wheat;
+    border:2px solid brown;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    color:brown;
+
+}
+
+#btnX,#btnO{
+    height:4rem;
+    width:4rem;
+    border:2px solid brown;
+    background-color:antiquewhite;
+    font-size:3rem;
+    font-weight: 700;
+    color:brown;
+    text-align:center;
+}
+
+#opt{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:7rem;
+    width:10rem;
+
+}
+#menu h3{
+    text-align:center;
+}
